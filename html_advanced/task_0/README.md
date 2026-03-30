@@ -6,4 +6,4 @@ It will focus on **HTML** structure only (no CSS styling), without using any ext
 
 The goal of the project is to replicate a *School Page* with the following design:
 
-<br><img src="school_page.png" alt="School Page"/><br>
+<br><img src="../assets/school_page.png" alt="School Page"/><br>
