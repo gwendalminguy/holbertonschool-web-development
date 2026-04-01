@@ -17,5 +17,3 @@ This project is about learning to use CSS by styling a simple web page.
 * [Task 6](https://github.com/gwendalminguy/holbertonschool-web-development/tree/main/css_advanced/task_6), the directory containing Task 6.
 
 * [Task 7](https://github.com/gwendalminguy/holbertonschool-web-development/tree/main/css_advanced/task_7), the directory containing Task 7.
-
-* [Task 8](https://github.com/gwendalminguy/holbertonschool-web-development/tree/main/css_advanced/task_8), the directory containing Task 8.
