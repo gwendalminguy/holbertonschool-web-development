@@ -213,8 +213,8 @@ section.author .quote-all {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 51px;
-    padding: 59px 100px;
+    gap: 50px;
+    padding: 59.5px 100px;
     width: 80%;
 }
 
