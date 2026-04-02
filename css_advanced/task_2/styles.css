@@ -174,9 +174,9 @@ section .pros h2 {
     color: #C271FF;
 }
 
-section .people p {
+section .people blockquote {
     font-family: SourceSansPro;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 section .people {
@@ -191,7 +191,11 @@ section .people div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    width: 150px;
+}
+
+section .people img {
     width: 150px;
 }
 
