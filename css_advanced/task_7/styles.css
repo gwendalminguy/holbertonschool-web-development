@@ -47,6 +47,7 @@ html {
 }
 
 body {
+    background-color: white;
     font-family: SourceSansPro;
     color: white;
     text-align: center;
@@ -455,6 +456,7 @@ footer a {
 .logos {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
