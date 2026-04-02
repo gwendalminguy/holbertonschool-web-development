@@ -389,7 +389,7 @@ section.faq {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 7.5px;
+    padding: 50px;
 }
 
 section.faq h1,
@@ -422,7 +422,7 @@ section.faq p {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    gap: 25px;
+    gap: 50px;
     width: 75%;
 }
 
