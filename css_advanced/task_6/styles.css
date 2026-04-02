@@ -429,7 +429,7 @@ section.faq p {
 .faq-row {
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    gap: 150px;
     width: 100%;
 }
 
