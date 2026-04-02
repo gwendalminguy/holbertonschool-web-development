@@ -436,7 +436,7 @@ footer {
 }
 
 .footer-all p {
-    color: rgba(255, 255, 255, 0.35);
+    color: white;
     font-size: 12px;
     font-weight: 500;
 }
