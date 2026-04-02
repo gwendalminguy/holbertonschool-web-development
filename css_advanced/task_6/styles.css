@@ -62,31 +62,27 @@ body {
 /* ----- HEADER ----- */
 
 header {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
-    height: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    left: 0;
-    right: 0;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 100;
+    padding: 0 225px;
+    padding-top: 35px;
 }
 
 header div {
-    width: 234px;
-    height: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 50px;
 }
 
 header a {
     font-size: 12px;
+    font-weight: 600;
     text-decoration: none;
+    text-align: left;
 }
 
 /* ----- MAIN ----- */
@@ -114,6 +110,8 @@ section {
 .title p {
     width: 100%;
     max-width: 250px;
+    font-size: 16px;
+    font-weight: 600;
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 25px;;
@@ -127,14 +125,16 @@ section {
 
 section.hero {
     background-image: url("../assets/background.png");
-    background-size: 100% auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    padding: 75px;
+    padding-top: 70px;
 }
 
 section .title {
@@ -172,9 +172,9 @@ section .pros h2 {
     color: #C271FF;
 }
 
-section .people p {
+section .people blockquote {
     font-family: SourceSansPro;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 section .people {
@@ -189,7 +189,11 @@ section .people div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    width: 150px;
+}
+
+section .people img {
     width: 150px;
 }
 
