@@ -254,7 +254,7 @@ section.tutorials {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 155px 100px;
 }
 
 section.tutorials .group {
