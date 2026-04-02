@@ -206,21 +206,27 @@ section.author {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-section.author div {
+section.author .quote-all {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 50px;
-    padding: 50px 0;
-    width: 60%;
+    padding: 50px 100px;
+    width: 80%;
+}
+
+section.author img {
+    width: 160px;
 }
 
 section.author div div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
     gap: 0;
 }
 
@@ -230,7 +236,6 @@ section.author blockquote {
     font-size: 22px;
     padding-bottom: 25px;
     color: white;
-    width: 120%;
     text-align: left;
 }
 
